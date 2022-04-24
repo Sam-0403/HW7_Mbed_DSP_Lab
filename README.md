@@ -1,4 +1,4 @@
-HW7_Mbed_DSP_Programming
+HW7_Mbed_DSP_Lab
 ===
 
 # 目標
@@ -9,4 +9,4 @@ HW7_Mbed_DSP_Programming
 2. 將main.cpp修改為[arm_fir_example_f32.c](https://github.com/ARM-software/CMSIS_5/tree/develop/CMSIS/DSP/Examples/ARM/arm_fir_example)
 3. 新增[arm_fir_data.c](https://github.com/ARM-software/CMSIS_5/tree/develop/CMSIS/DSP/Examples/ARM/arm_fir_example)並改為.cpp檔
 4. 新增[mbed-dsp](https://os.mbed.com/teams/mbed-official/code/mbed-dsp)的Library
-5. 在/mbed-dsp/cmsis_dsp/TransformFunctions/arm_bitreversal2.S中`#if defined(__CC_ARM)`前新增`#define __CC_ARM`
+5. 在`/mbed-dsp/cmsis_dsp/TransformFunctions/arm_bitreversal2.S`中`#if defined(__CC_ARM)`行前新增`#define __CC_ARM`
